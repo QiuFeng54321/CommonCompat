@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:background="@drawable/toast_frame"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<TextView
+		android:textAppearance="@style/SnackAppearence"
+		android:textColor="#0106000F"
+		android:layout_gravity="left|center"
+		android:id="@+id/SnackText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:shadowColor="#BB000000"
+		android:shadowRadius="2.75"
+		android:layout_weight="1"
+		android:gravity="left|center"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="right|center"
+		android:id="@+id/SnackPositive"
+		android:visibility="visible"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="right|center"
+		android:id="@+id/SnackNeutral"
+		android:visibility="visible"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="right|center"
+		android:id="@+id/SnackNegative"
+		android:visibility="visible"/>
+
+</LinearLayout>
+
