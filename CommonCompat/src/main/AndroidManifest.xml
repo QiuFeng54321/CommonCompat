@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qiufeng.compat" >
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--<application>
+        <activity
+            android:name=".LibraryActivity"
+            android:label="@string/lib_name" >
+        </activity>
+    </application>-->
+	<service
+		android:name="com.qiufeng.compat.service.DaemonService"
+		android:enabled="true"
+		android:exported="true" />
+
+	<!-- JobService里面的权限android:permission="android.permission.BIND_JOB_SERVICE"不可缺少 -->
+	<service
+		android:name="com.qiufeng.compat.service.DaemonJobService"
+		android:permission="android.permission.BIND_JOB_SERVICE"
+	/>
+</manifest>
+

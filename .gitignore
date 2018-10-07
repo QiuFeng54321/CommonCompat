@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+/build
+=======
+bin/
+gen/
+obj/
+libs/*/*.so
+app/
+XmlViewParser/
+
+>>>>>>> Initial commit

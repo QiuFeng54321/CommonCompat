@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	<style name="SnackAppearence">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:fontFamily">sans-serif-condensed</item>
+	</style>
+	<style name="SnackAnimation">
+		<item name="android:windowEnterAnimation">@anim/snack_enter</item>
+		<item name="android:windowExitAnimation">@anim/snack_exit</item>
+	</style>
+</resources>
